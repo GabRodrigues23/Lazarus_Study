@@ -1,0 +1,26 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 770
+  Height = 296
+  Top = 185
+  Width = 407
+  Caption = 'Aula 003 - Variaveis'
+  ClientHeight = 296
+  ClientWidth = 407
+  LCLVersion = '3.0.0.3'
+  object btnProcessa: TButton
+    Left = 128
+    Height = 59
+    Top = 200
+    Width = 146
+    Caption = 'Processsa'
+    TabOrder = 0
+    OnClick = btnProcessaClick
+  end
+  object Memo1: TMemo
+    Left = 40
+    Height = 127
+    Top = 32
+    Width = 330
+    TabOrder = 1
+  end
+end

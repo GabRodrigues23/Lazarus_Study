@@ -1,0 +1,41 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 764
+  Height = 340
+  Top = 187
+  Width = 441
+  Caption = 'Aula 005 - Operadores'
+  ClientHeight = 340
+  ClientWidth = 441
+  LCLVersion = '3.0.0.3'
+  object Memo1: TMemo
+    Left = 24
+    Height = 214
+    Top = 8
+    Width = 392
+    Lines.Strings = (
+      ':=       |   Igual'
+      '>        |   Maior'
+      '<        |   Menor'
+      '>=     |   Maior ou Igual'
+      '<=     |   Menor ou Igual'
+      '+        |   Soma'
+      '-         |   Subtração'
+      '*         |   Multiplicação'
+      '/         |   Divisão'
+      'and    |   E'
+      'or       |   OU'
+      'not     |   Não'
+    )
+    TabOrder = 0
+    OnChange = Memo1Change
+  end
+  object btnProcessa: TButton
+    Left = 152
+    Height = 63
+    Top = 256
+    Width = 138
+    Caption = 'Processa'
+    TabOrder = 1
+    OnClick = btnProcessaClick
+  end
+end

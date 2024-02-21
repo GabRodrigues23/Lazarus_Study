@@ -1,0 +1,56 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 653
+  Height = 310
+  Top = 253
+  Width = 440
+  Caption = 'Aula 004 - Array'
+  ClientHeight = 310
+  ClientWidth = 440
+  LCLVersion = '3.0.0.3'
+  object lblData: TLabel
+    Left = 29
+    Height = 15
+    Top = 34
+    Width = 85
+    Caption = 'Informe da Data'
+  end
+  object edtData: TEdit
+    Left = 128
+    Height = 23
+    Top = 34
+    Width = 290
+    TabOrder = 0
+  end
+  object Memo1: TMemo
+    Left = 29
+    Height = 54
+    Top = 80
+    Width = 390
+    TabOrder = 1
+  end
+  object btnProcessa: TButton
+    Left = 144
+    Height = 36
+    Top = 240
+    Width = 158
+    Caption = 'Processa'
+    TabOrder = 2
+    OnClick = btnProcessaClick
+  end
+  object btnExit: TButton
+    Left = 392
+    Height = 20
+    Top = 288
+    Width = 39
+    Caption = 'Exit'
+    TabOrder = 3
+    OnClick = btnExitClick
+  end
+  object Memo2: TMemo
+    Left = 29
+    Height = 54
+    Top = 144
+    Width = 390
+    TabOrder = 4
+  end
+end

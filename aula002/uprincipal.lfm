@@ -1,0 +1,64 @@
+object frmPrincipal: TfrmPrincipal
+  Left = 720
+  Height = 296
+  Top = 184
+  Width = 430
+  Caption = 'Aula 001 - Primeiros Passos'
+  ClientHeight = 296
+  ClientWidth = 430
+  LCLVersion = '3.0.0.3'
+  object lblNome: TLabel
+    Left = 24
+    Height = 15
+    Top = 64
+    Width = 86
+    Caption = 'Digite seu nome'
+  end
+  object lblSobrenome: TLabel
+    Left = 24
+    Height = 15
+    Top = 88
+    Width = 115
+    Caption = 'Digite seu sobrenome'
+  end
+  object edtNome: TEdit
+    Left = 160
+    Height = 23
+    Top = 64
+    Width = 240
+    TabOrder = 0
+  end
+  object edtSobrenome: TEdit
+    Left = 160
+    Height = 23
+    Top = 88
+    Width = 240
+    TabOrder = 1
+  end
+  object btnMostrarMensagem: TButton
+    Left = 72
+    Height = 39
+    Top = 227
+    Width = 136
+    Caption = 'Mostrar Mensagem'
+    TabOrder = 2
+    OnClick = btnMostrarMensagemClick
+  end
+  object btnSair: TButton
+    Left = 226
+    Height = 39
+    Top = 227
+    Width = 136
+    Caption = 'Sair'
+    TabOrder = 3
+    OnClick = btnSairClick
+  end
+  object chkMostrarSobrenome: TCheckBox
+    Left = 24
+    Height = 19
+    Top = 128
+    Width = 123
+    Caption = 'Mostrar Sobrenome'
+    TabOrder = 4
+  end
+end
