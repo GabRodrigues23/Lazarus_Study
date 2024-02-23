@@ -1,17 +1,19 @@
 object frmPrincipal: TfrmPrincipal
-  Left = 764
-  Height = 340
-  Top = 187
-  Width = 441
+  Left = 834
+  Height = 425
+  Top = 208
+  Width = 551
   Caption = 'Aula 005 - Operadores'
-  ClientHeight = 340
-  ClientWidth = 441
+  ClientHeight = 425
+  ClientWidth = 551
+  DesignTimePPI = 120
+  OnCreate = FormCreate
   LCLVersion = '3.0.0.3'
   object Memo1: TMemo
-    Left = 24
-    Height = 214
-    Top = 8
-    Width = 392
+    Left = 30
+    Height = 268
+    Top = 10
+    Width = 490
     Lines.Strings = (
       ':=       |   Igual'
       '>        |   Maior'
@@ -27,13 +29,12 @@ object frmPrincipal: TfrmPrincipal
       'not     |   Não'
     )
     TabOrder = 0
-    OnChange = Memo1Change
   end
   object btnProcessa: TButton
-    Left = 152
-    Height = 63
-    Top = 256
-    Width = 138
+    Left = 190
+    Height = 79
+    Top = 320
+    Width = 172
     Caption = 'Processa'
     TabOrder = 1
     OnClick = btnProcessaClick

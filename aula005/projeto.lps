@@ -12,18 +12,20 @@
         <WindowIndex Value="-1"/>
         <TopLine Value="-1"/>
         <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="22"/>
       </Unit>
       <Unit>
         <Filename Value="uprincipal.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="uPrincipal"/>
         <IsVisibleTab Value="True"/>
-        <TopLine Value="27"/>
-        <CursorPos X="20" Y="43"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="98"/>
+        <CursorPos X="29" Y="113"/>
+        <FoldState Value=" T3X037"/>
+        <UsageCount Value="22"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -33,11 +35,10 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="4">
-      <Position>
-        <Filename Value="uprincipal.pas"/>
-        <Caret TopLine="8"/>
-      </Position>
+    <Debugger>
+      <Backend Value="IDE"/>
+    </Debugger>
+    <JumpHistory HistoryIndex="20">
       <Position>
         <Filename Value="uprincipal.pas"/>
         <Caret Line="23" Column="36" TopLine="20"/>
@@ -53,6 +54,74 @@
       <Position>
         <Filename Value="uprincipal.pas"/>
         <Caret Line="36" Column="3" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="43" Column="14" TopLine="26"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="42" Column="9" TopLine="27"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="33" Column="18" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="16" Column="28" TopLine="10"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="51" Column="9" TopLine="30"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="67" Column="57" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="74" Column="10" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="95" Column="37" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="46" Column="24" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="82" Column="54" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="87" Column="3" TopLine="75"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="56" Column="14" TopLine="69"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="94" Column="16" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="82" Column="10" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="114" Column="59" TopLine="98"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="108" Column="74" TopLine="96"/>
+      </Position>
+      <Position>
+        <Filename Value="uprincipal.pas"/>
+        <Caret Line="106" Column="75" TopLine="95"/>
       </Position>
     </JumpHistory>
     <RunParams>
